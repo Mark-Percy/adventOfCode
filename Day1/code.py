@@ -1,4 +1,7 @@
 f = open('./input.txt', 'r')
+#
+#Task 1
+#
 # mTotal = 0
 # currTotal = 0 
 # for l in f:
@@ -11,6 +14,9 @@ f = open('./input.txt', 'r')
 
 # print(f"{mTotal}")
 
+#
+# Task 2
+#
 
 threeTop = [0,0,0]
 currTotal = 0 

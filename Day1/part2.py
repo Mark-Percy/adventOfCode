@@ -1,23 +1,7 @@
+import time
+
+start = time.perf_counter()
 f = open('./input.txt', 'r')
-#
-#Task 1
-#
-# mTotal = 0
-# currTotal = 0 
-# for l in f:
-#     if l == '\n':
-#         if currTotal > mTotal and currTotal < 68878:
-#             mTotal = currTotal
-#         currTotal = 0
-#     else:
-#         currTotal += int(l)
-
-# print(f"{mTotal}")
-
-#
-# Task 2
-#
-
 threeTop = [0,0,0]
 currTotal = 0 
 for l in f:
@@ -32,5 +16,5 @@ for l in f:
         currTotal = 0
     else:
         currTotal += int(l)
-
 print(f"{threeTop} :{sum(threeTop)}")
+print(f"Time taken: {time.perf_counter() - start}")

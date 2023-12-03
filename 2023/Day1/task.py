@@ -1,4 +1,3 @@
-
 total = 0
 
 digitStrings = {"oneight":"18",
@@ -34,5 +33,3 @@ with open("./input.txt") as f:
             secondnum = numlist[length-1]
         total += int(firstNum + secondnum)
 print(total)
-
-
